@@ -1,4 +1,4 @@
-Built with Astro Nano, Tailwind and Typescript.
+Built with [Astro Nano](https://astro.build/themes/details/astronano/), Tailwind and Typescript.
 
 ## 📋 Features
 
@@ -28,11 +28,7 @@ No frameworks or added bulk
 
 Rendered in ~40ms on localhost
 
-## 📄 Configuration
-
-The blog posts on the demo serve as the documentation and configuration.
-
-## 💻 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
