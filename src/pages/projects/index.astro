@@ -6,22 +6,26 @@ import ArrowCard from "@components/ArrowCard.astro";
 import { PROJECTS } from "@consts";
 
 const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
+  .filter((project) => !project.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-semibold text-black dark:text-white">
+      <div class="animate font-semibold text-black text-xl dark:text-white">
         Projects
       </div>
       <ul class="animate flex flex-col gap-4">
         {
           projects.map((project) => (
-            <li>
-              <ArrowCard entry={project}/>
-            </li>
+            // Revert this once more projects are online
+            <a
+              href="https://link.springer.com/article/10.1007/s00265-018-2618-z"
+              target="_blank"
+            >
+              <ArrowCard entry={project} />
+            </a>
           ))
         }
       </ul>
