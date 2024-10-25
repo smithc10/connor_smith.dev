@@ -1,11 +1,10 @@
 ---
-import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
 import { SITE } from "@consts";
 ---
 
 <header>
-  <Container>
+  <div class="mx-auto max-w-screen-sm p-2">
     <div class="flex flex-wrap gap-y-2 justify-between">
       <Link href="/" underline={false}>
         <div class="font-semibold">
@@ -92,5 +91,5 @@ import { SITE } from "@consts";
         </button>
       </div>
     </div>
-  </Container>
+  </div>
 </header>

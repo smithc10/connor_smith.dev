@@ -5,13 +5,13 @@ dateStart: "09/26/2022"
 dateEnd: "Current"
 ---
 
-#### Front End Engineer II - IT Services Development
+**Front End Engineer II - IT Services Development**
 
 May 2024 - Present
 
 - Wrote Python script to automatically generate an internal wiki page for our team's weekly operational review that collects ticket information, ops ticket statistics, software architectural compliance risks, as well as scrape data for procedural deployment documents. Saving approx 1hr/week of tedious developer time. Easing pain points of our team's on-call process and raising the bar for our team's operational reviews and readiness.
 
-#### Front End Engineer II - AWS Systems Manager
+**Front End Engineer II - AWS Systems Manager**
 
 September 2022 - May 2024
 
