@@ -9,7 +9,7 @@ const { entry } = Astro.props;
 ---
 
 <a
-  href={`https://link.springer.com/article/10.1007/s00265-018-2618-z`}
+  href={entry.data.demoURL || entry.data.repoURL}
   target="_blank"
   class="relative group flex flex-nowrap py-3 px-4 pr-10 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
 >
